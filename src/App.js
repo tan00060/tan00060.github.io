@@ -14,14 +14,19 @@ function App() {
       <Router>
         <Navigation></Navigation>
         <Switch>
-          <Route path="/" component={() => <Home></Home>}></Route>
+          <Route exact path="/" component={() => <Home></Home>}></Route>
           <Route
+            exact
             path="/projects"
             component={() => <Projects></Projects>}
           ></Route>
-          <Route path="/about" component={() => <About></About>}></Route>
-          <Route path="/social" component={() => <Home></Home>}></Route>
-          <Route path="/contact" component={() => <Contact></Contact>}></Route>
+          <Route exact path="/about" component={() => <About></About>}></Route>
+          <Route exact path="/social" component={() => <Home></Home>}></Route>
+          <Route
+            exact
+            path="/contact"
+            component={() => <Contact></Contact>}
+          ></Route>
         </Switch>
       </Router>
     </div>

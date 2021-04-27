@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Navigation.css";
 
 export default function Navigation() {
@@ -11,19 +12,10 @@ export default function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav" className="navBarRight">
           <Nav>
             <Nav.Item>
-              <Nav.Link href="/">Home</Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item></Nav.Item>
-            <Nav.Link href="/projects">Project</Nav.Link>
-
-            <Nav.Item></Nav.Item>
-            <Nav.Link href="/about">About</Nav.Link>
-
-            <Nav.Item>
-              <Nav.Link eventKey={2} href="/contact">
-                Contact
-              </Nav.Link>
+              <Link to="/">Home</Link>
+              <Link to="/projects">Project</Link>
+              <Link to="/about">About</Link>
+              <Link to="/contact">Contact</Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
