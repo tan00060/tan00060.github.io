@@ -16,7 +16,7 @@
 .nav-tabs .nav-link.active {
   background-color: transparent !important;
   border-color: transparent !important;
-  color: white;
+  color: blue;
 }
 
 .card {
