@@ -1,0 +1,42 @@
+.homepageContainer {
+  position: relative;
+  top: 30vh;
+  padding-left: 50px;
+  color: white;
+}
+
+.homeTitles {
+  font-size: 40px;
+  color: #191999;
+}
+
+.imText {
+  font-size: 40px;
+  color: #332222;
+}
+
+.homeName {
+  font-size: 70px;
+  color: #332222;
+}
+
+@media screen and (max-width: 590px) {
+  .aboutMeContainer {
+    display: block;
+    text-align: center;
+  }
+
+  .homeName {
+    font-size: 50px;
+    color: #332222;
+  }
+
+  .imText {
+    font-size: 30px;
+    color: #332222;
+  }
+
+  .homeTitles {
+    font-size: 30px;
+  }
+}

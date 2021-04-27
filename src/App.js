@@ -6,10 +6,11 @@ import Home from "./components/Home/Home";
 import Navigation from "./components/Navigation/Navigation";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <div className="App polarisBackgroundImage">
+    <div className="App">
       <Router>
         <Navigation></Navigation>
         <Switch>
@@ -21,6 +22,11 @@ function App() {
           ></Route>
           <Route exact path="/about" component={() => <About></About>}></Route>
           <Route exact path="/social" component={() => <Home></Home>}></Route>
+          <Route
+            exact
+            path="/contact"
+            component={() => <Contact></Contact>}
+          ></Route>
         </Switch>
       </Router>
     </div>

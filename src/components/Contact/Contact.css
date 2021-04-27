@@ -1,0 +1,81 @@
+.formContainer {
+  padding: 10px;
+  text-align: center;
+}
+
+.nameEmailContainer {
+  margin-top: 30px;
+}
+
+.nameEmailContainer input {
+  margin: 10px;
+  width: 40vh;
+}
+
+.contactMeTitle {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.imgIcons {
+  margin-top: 17px;
+  font-size: 30px;
+}
+
+.contactInfo {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+#subject {
+  width: 100vh;
+}
+
+#message {
+  width: 100vh;
+  height: 20vh;
+}
+
+.contactImgContainer {
+  display: flex;
+  padding-left: 40px;
+}
+
+.thanksJoin {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 740px) {
+  #subject {
+    width: 60vh;
+  }
+
+  #message {
+    width: 60vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #subject {
+    width: 40vh;
+  }
+
+  #message {
+    width: 40vh;
+  }
+
+  #email {
+    margin-top: 22px;
+  }
+
+  .imgIcons {
+    margin-top: 17px;
+    font-size: 20px;
+  }
+
+  .contactInfo {
+    font-size: 15px;
+  }
+}

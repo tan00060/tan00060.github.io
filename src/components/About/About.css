@@ -1,0 +1,27 @@
+.aboutMeContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.aboutTitle {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.aboutMeImage {
+  border-radius: 50%;
+}
+
+.aboutMeTextContainer {
+  padding: 20px;
+  font-weight: 600;
+  color: Black;
+}
+
+@media screen and (max-width: 590px) {
+  .aboutMeContainer {
+    display: block;
+    text-align: center;
+  }
+}
